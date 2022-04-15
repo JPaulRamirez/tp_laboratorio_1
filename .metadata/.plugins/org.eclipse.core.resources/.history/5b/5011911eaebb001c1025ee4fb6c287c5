@@ -1,0 +1,93 @@
+/*
+ * Calcular.h
+ *
+ *  Created on: 10 abr. 2022
+ *      Author: Compumar
+ */
+
+#ifndef CALCULAR_H_
+#define CALCULAR_H_
+/**
+ * @brief Esta función informa los resultados de Aerolineas y de Latam.
+ * @param km  Recibe una variable tipo float que se va mostrar.
+ * @param diferenciaLatamYAreolineas  Recibe una variable tipo float que se va mostrar.
+ * @param prLatam  Recibe una variable tipo float que se va mostrar.
+ * @param prAerolineas  Recibe una variable tipo float que se va mostrar.
+ * @param prDebitoLatam  Recibe una variable tipo float que se va mostrar.
+ * @param prCreditoLatam  Recibe una variable tipo float que se va mostrar.
+ * @param prBitcoinLatam  Recibe una variable tipo float que se va mostrar.
+ * @param unitarioLatam  Recibe una variable tipo float que se va mostrar.
+ * @param prDebitoAerolineas  Recibe una variable tipo float que se va mostrar.
+ * @param prCreditoAerolineas  Recibe una variable tipo float que se va mostrar.
+ * @param prBitcoinAerolineas  Recibe una variable tipo float que se va mostrar.
+ * @param unitarioAerolineas  Recibe una variable tipo float que se va mostrar.
+ */
+/**
+ * @brief Esta función informa los resultados de Aerolineas y de Latam.
+ * @param km   Recibe el float que corresponde a los kilometros ingresados.
+ * @param diferenciaLatamYAreolineas Recibe el float del return de la funcion diferenciaDePrecio.
+ * @param prLatam  Recibe el float que corresponde los datos de latam ingresados.
+ * @param prAerolineas  Recibe el float que corresponde los datos de aerolineas ingresados.
+ * @param prDebitoLatam Recibe el float del return de la funcion descuentoDebito.
+ * @param prCreditoLatam  Recibe el float del return de la funcion interesCredito.
+ * @param prBitcoinLatam  Recibe el float del return de la funcion Bitcoin.
+ * @param unitarioLatam  Recibe el float del return de la funcion Unitario.
+ * @param prDebitoAerolineas  Recibe el float del return de la funcion descuentoDebito.
+ * @param prCreditoAerolineas Recibe el float del return de la funcion interesCredito.
+ * @param prBitcoinAerolineas  Recibe el float del return de la funcion Bitcoin.
+ * @param unitarioAerolineas Recibe el float del return de la funcion Unitario.
+ */
+void informarResultados(float km,float diferenciaLatamYAreolineas,float prLatam, float prAerolineas, float prDebitoLatam, float prCreditoLatam, float prBitcoinLatam,float unitarioLatam,float prDebitoAerolineas, float prCreditoAerolineas, float prBitcoinAerolineas,float unitarioAerolineas);
+
+
+/**
+ * @brief Esta función hace el descuento del precio ingresado.
+ * @param precio  Recibe el float que corresponde del precio ingresados.
+ * @return Devuelve el resultado del precio en descuento.
+ */
+float descuentoDebito(float precio);
+
+
+/**
+ * @brief Esta función hace un interes del precio ingresado.
+ * @param precio Recibe el float que corresponde del precio ingresados.
+ * @return Devuelve el resultado del precio en interes.
+ */
+float interesCredito(float precio);
+
+
+/**
+ * @brief Esta funcion calcula el precio con bitcoin
+ * @param precio Recibe el float que corresponde del precio ingresados.
+ * @return Devuelve el resultado del precio bitcoin.
+ */
+float Bitcoin(float precio);
+
+
+/**
+ * @brief Esta función calcula el precio unitario
+ * @param precio Recibe el float que corresponde del precio ingresados.
+ * @param kilometros Recibe el float que corresponde a los kilometros ingresados.
+ * @return Devuelve el resultado del precio unitario
+ */
+float Unitario(float precio, float kilometros);
+
+
+/**
+ * @brief Esta función calcula la diferencia del precio Aerolineas con Latam.
+ * @param diferenciaAerolineas Recibe el float que corresponde los datos de aerolineas ingresados.
+ * @param diferenciaLatam Recibe el float que corresponde los datos de latam ingresados.
+ * @return Devuelve el resultado de la diferencia entre los precios de Aerolineas y Latam.
+ */
+float diferenciaDePrecio(float diferenciaAerolineas, float diferenciaLatam);
+
+
+/**
+ * @brief Esta función se encarga de mostrar exactamente los resultado sin ingresar ninguna opción previamente.
+ * @param km Recibe el float que corresponde a los kilometros ingresados.
+ * @param Aerolineas Recibe el float que corresponde los datos de aerolineas ingresados.
+ * @param Latam Recibe el float que corresponde los datos de latam ingresados.
+ */
+void cargaForzada(float km, float Aerolineas, float Latam);
+
+#endif /* CALCULAR_H_ */
