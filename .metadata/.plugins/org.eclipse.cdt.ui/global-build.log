@@ -28,3 +28,5 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calcular.o" "..\\src\\calcular.c" 
 gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1

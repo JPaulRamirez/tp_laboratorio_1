@@ -36,12 +36,10 @@ int main(void)
 	float diferenciaLatamYAerolineas;
 	do
 	{
-		//system("CLS");
 		opcion = pedirOpcion (km,precioAerolineas,precioLatam); // LLamo la fución pedirOpcion
 
 		switch(opcion)
 		{
-			//system("pause");
 			case 1:// Ingresar Kilometros
 
 				km = kilometrosIngresados (km); //LLama la fución kilometros

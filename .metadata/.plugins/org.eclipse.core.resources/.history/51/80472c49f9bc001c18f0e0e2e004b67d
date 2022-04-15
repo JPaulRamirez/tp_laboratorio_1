@@ -28,7 +28,7 @@ int pedirOpcion(float km, float precioAerolineas, float precioLatam)
 	int max =6;
 	int opcion;
 	// Menu de opciones
-	printf("\n1. Ingresar Kilometros: (km = %.2f)\n"
+	printf("1. Ingresar Kilometros: (km = %.2f)\n"
 			"2. Ingresar Precio de Vuelos: (Aerolineas = %.2f, Latam = %.2f)\n"
 			"3. Calcular todos los costos:\n"
 			"4. Informar Resultados\n"
