@@ -1,32 +1,22 @@
-Info: Nothing to build for TP_1
-23:59:00 **** Incremental Build of configuration Debug for project TP_1 ****
+00:32:57 **** Rebuild of configuration Debug for project TP_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
-gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
-Info: Nothing to build for TP_1
-00:09:02 **** Incremental Build of configuration Debug for project TP_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
-gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
-00:12:20 **** Incremental Build of configuration Debug for project TP_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calcular.o" "..\\src\\calcular.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
-gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
-00:17:35 **** Incremental Build of configuration Debug for project TP_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calcular.o" "..\\src\\calcular.c" 
-gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
-00:19:09 **** Incremental Build of configuration Debug for project TP_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calcular.o" "..\\src\\calcular.c" 
-gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
-Info: Nothing to build for TP_1
-00:33:22 **** Incremental Build of configuration Debug for project TP_1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Passenger.o" "..\\src\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP-2.o" "..\\src\\TP-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\UTN.o" "..\\src\\UTN.c" 
+gcc -o TP_2.exe "src\\Passenger.o" "src\\TP-2.o" "src\\UTN.o" 
+Info: Nothing to build for TP_2
+21:07:09 **** Rebuild of configuration Debug for project TP_1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calcular.o" "..\\src\\calcular.c" 
 gcc -o TP_1.exe "src\\TP_1.o" "src\\calcular.o" 
 Info: Nothing to build for TP_1
 Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+04:47:20 **** Rebuild of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\UTN.o" "..\\src\\UTN.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Passenger.o" "..\\src\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP-2.o" "..\\src\\TP-2.c" 
+gcc -o TP_2.exe "src\\Passenger.o" "src\\TP-2.o" "src\\UTN.o" 
